@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="saucedemo Automation Suite" duration-ms="138118" started-at="2022-02-26T07:27:50Z" finished-at="2022-02-26T07:30:09Z">
+    <groups>
+    </groups>
+    <test name="Automation_Test_Suite" duration-ms="138118" started-at="2022-02-26T07:27:50Z" finished-at="2022-02-26T07:30:09Z">
+      <class name="com.testScript.SauceDemoUI_Test">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="init" is-config="true" duration-ms="115093" started-at="2022-02-26T07:27:51Z" finished-at="2022-02-26T07:29:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="userName_Field_Displayed()[pri:1, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="userName_Field_Displayed" duration-ms="3188" started-at="2022-02-26T07:29:46Z" finished-at="2022-02-26T07:29:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName_Field_Displayed -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="29" started-at="2022-02-26T07:29:49Z" finished-at="2022-02-26T07:29:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userName_Field_Displayed status=SUCCESS method=SauceDemoUI_Test.userName_Field_Displayed()[pri:1, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="userName_Field_Enabled()[pri:2, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="userName_Field_Enabled" duration-ms="2409" started-at="2022-02-26T07:29:49Z" finished-at="2022-02-26T07:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userName_Field_Enabled -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-02-26T07:29:52Z" finished-at="2022-02-26T07:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userName_Field_Enabled status=SUCCESS method=SauceDemoUI_Test.userName_Field_Enabled()[pri:2, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="password_Field_Displayed()[pri:3, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="password_Field_Displayed" duration-ms="95" started-at="2022-02-26T07:29:52Z" finished-at="2022-02-26T07:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password_Field_Displayed -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-02-26T07:29:52Z" finished-at="2022-02-26T07:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=password_Field_Displayed status=SUCCESS method=SauceDemoUI_Test.password_Field_Displayed()[pri:3, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="password_Field_Enabled()[pri:4, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="password_Field_Enabled" duration-ms="34" started-at="2022-02-26T07:29:52Z" finished-at="2022-02-26T07:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password_Field_Enabled -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-02-26T07:29:52Z" finished-at="2022-02-26T07:29:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=password_Field_Enabled status=SUCCESS method=SauceDemoUI_Test.password_Field_Enabled()[pri:4, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="login_Field_Displayed()[pri:5, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="login_Field_Displayed" duration-ms="2309" started-at="2022-02-26T07:29:52Z" finished-at="2022-02-26T07:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Field_Displayed -->
+        <test-method status="PASS" signature="login_Field_Enabled()[pri:6, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="login_Field_Enabled" duration-ms="27" started-at="2022-02-26T07:29:54Z" finished-at="2022-02-26T07:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_Field_Enabled -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-26T07:29:54Z" finished-at="2022-02-26T07:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_Field_Displayed status=SUCCESS method=SauceDemoUI_Test.login_Field_Displayed()[pri:5, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-02-26T07:29:54Z" finished-at="2022-02-26T07:29:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login_Field_Enabled status=SUCCESS method=SauceDemoUI_Test.login_Field_Enabled()[pri:6, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="no_input_Check_validation()[pri:7, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="no_input_Check_validation" duration-ms="8433" started-at="2022-02-26T07:29:54Z" finished-at="2022-02-26T07:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- no_input_Check_validation -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-02-26T07:30:03Z" finished-at="2022-02-26T07:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=no_input_Check_validation status=SUCCESS method=SauceDemoUI_Test.no_input_Check_validation()[pri:7, instance:com.testScript.SauceDemoUI_Test@16c48ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.testScript.SauceDemoUI_Test@16c48ac]" name="quit" is-config="true" duration-ms="5910" started-at="2022-02-26T07:30:03Z" finished-at="2022-02-26T07:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.testScript.SauceDemoUI_Test -->
+    </test> <!-- Automation_Test_Suite -->
+  </suite> <!-- saucedemo Automation Suite -->
+</testng-results>
